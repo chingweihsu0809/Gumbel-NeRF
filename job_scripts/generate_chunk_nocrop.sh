@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch \
+    --use_env \
+    --master_port=12346 \
+    --nproc_per_node=1 \
+    -m src.train --exp_name ./exp/generate_chunk/nocrop \
+                 --dataset_path ./data/srn_cars \
+                 --chunk_paths ./data/srn_cars/chunk_multi_nocrop \
+                 --use_gumbel \
+                 --gumbel_config ./src/models/gumbel_model/configs/multi_unihead_cn_W0.5.json \
+                 --generate_chunk \
+                 --num_chunks=16 \
+                 --item_files_postfix "_multi_nocrop" \
+                 --no_crop_img \
+                 --latent_dim=256 

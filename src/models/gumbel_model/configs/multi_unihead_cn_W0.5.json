@@ -1,0 +1,28 @@
+{
+    "type": "big",
+    "model_hparams": {
+        "enc_xyz_size": 128,
+        "W": 128,
+        "num_xyz_freq": 10,
+        "num_dir_freq": 4,
+        "latent": {
+            "len": 256,
+            "latent_map_type": "half_dim"
+        },
+        "num_experts": 4,
+        "uni_head": true,
+        "moe": {
+            "input_size": 128,
+            "output_size": 128,
+            "hidden_size": 128,
+            "depth": 3,
+            "skips": [5]
+        },
+        "rgb": {
+            "moe_out_W": 128,
+            "W": 256
+        },
+        "codenerfstyle": true,
+        "latent_fc": true
+    }
+}
