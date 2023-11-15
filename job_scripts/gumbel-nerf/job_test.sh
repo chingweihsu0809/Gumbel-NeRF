@@ -39,7 +39,7 @@ remote_commands() {
         --node_rank=$node_rank \
         --master_addr=$master_addr \
         -m src.eval_image --exp_name ./exp/gumbelnerf/test \
-                          --ckpt_path /gs/hs0/tga-RLA/21M38136/Switch-NeRF_srn/exp/gumbelnerf_srn_multi_0912_CodeNeRFstyleSig_W0.5/uni_lr13e-4_Tmax20/tto_fine/Tmax2_eta_max2min0.5/bs4096_lr2e-2/0/models/200.pt \
+                          --ckpt_path ./exp/gumbelnerf/tto/0/models/200.pt \
                           --dataset_path data/srn_cars \
                           --task "test" \
                           --exclude_img_index=64 \
