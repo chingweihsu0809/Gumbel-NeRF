@@ -1,9 +1,10 @@
 # Gumbel-NeRF: Representing Unseen Objects as Part-Compositional Neural Radiance Fields 
 
-### [Paper]() | [Accompanying video]() | [Checkpoints]()
+### [Paper]() | [Accompanying video]() | [Weights](https://drive.google.com/drive/folders/1IipIshTUbafE6sEjHeK6QgQ195Wlsv8Z?usp=sharing)
 
 ## Updates
 
+- 2023/11/15: Upload weights (please request access)
 - 2023/09/27: Init repo
 
 ## Installation
