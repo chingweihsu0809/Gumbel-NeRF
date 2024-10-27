@@ -1,6 +1,6 @@
 # Gumbel-NeRF: Representing Unseen Objects as Part-Compositional Neural Radiance Fields 
 
-### [Paper]() | [Accompanying video]() | [Weights](https://drive.google.com/drive/folders/1IipIshTUbafE6sEjHeK6QgQ195Wlsv8Z?usp=sharing)
+### [Paper](https://ieeexplore.ieee.org/document/10648036) | [Weights](https://drive.google.com/drive/folders/1IipIshTUbafE6sEjHeK6QgQ195Wlsv8Z?usp=sharing)
 
 ## Updates
 
@@ -41,7 +41,14 @@ qsub ../job_scripts/<method>/job_test.sh
 ## Citation
 
 ```bibtex
-
+@inproceedings{sekikawa2024gumbel,
+  title={Gumbel-NeRF: Representing Unseen Objects as Part-Compositional Neural Radiance Fields},
+  author={Sekikawa, Yusuke and Hsu, Chingwei and Ikehata, Satoshi and Kawakami, Rei and Sato, Ikuro},
+  booktitle={2024 IEEE International Conference on Image Processing (ICIP)},
+  pages={2382--2388},
+  year={2024},
+  organization={IEEE}
+}
 ```
 
 ## Contact
